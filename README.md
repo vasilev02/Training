@@ -1,2 +1,2 @@
-# Some-tasks
+# Training
 Show today's tasks
