@@ -1,0 +1,13 @@
+function solve(input) {
+
+    let number = input.shift();
+
+    for (let index = 1; index <= number; index += 3) {
+
+        console.log(index);
+
+    }
+
+}
+
+solve([`10`]);
