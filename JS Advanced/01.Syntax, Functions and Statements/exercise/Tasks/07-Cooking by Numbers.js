@@ -18,7 +18,7 @@ function solve(input) {
 
     for (let index = 1; index < input.length; index++) {
 
-        number = functions[input[index]](number)
+        number = functions[input[index]](number);
 
         console.log(number);
 
