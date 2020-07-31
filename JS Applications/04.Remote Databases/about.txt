@@ -1,0 +1,8 @@
+In this lecture - - -
+
++ Relational and Non Relational Databases
++ Backend as a Service - BaaS
++ Firebase
++ Using Firebase BaaS
++ Backendless
++ Using Backendless mBaaS
