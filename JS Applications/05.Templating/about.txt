@@ -1,0 +1,6 @@
+In this lecture - - -
+
++ Templating Concepts
++ Simple Templating
++ Templating Engines
++ Handlebars Overview
