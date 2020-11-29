@@ -1,0 +1,1275 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<libraries>
+    <library>
+        <name>Georgia Library</name>
+        <location>Dela</location>
+        <rating>6</rating>
+        <book>
+            <id>64</id>
+        </book>
+    </library>
+    <library>
+        <name>Do</name>
+        <location>111 Oneill Alley</location>
+        <rating>8</rating>
+        <book>
+            <id>134</id>
+        </book>
+    </library>
+    <library>
+        <name>Bergnaum, Kuvalis and Upton</name>
+        <location>736 Pankratz Junction</location>
+        <rating>55555555555555</rating>
+        <book>
+            <id>99</id>
+        </book>
+    </library>
+    <library>
+        <name>Fisher</name>
+        <location>3914 Homewood Crossing</location>
+        <rating></rating>
+        <book>
+            <id>38</id>
+        </book>
+    </library>
+    <library>
+        <name>Dooley-Grimes</name>
+        <location>6 Nancy Park</location>
+        <rating>9</rating>
+        <book>
+            <id>134</id>
+        </book>
+    </library>
+    <library>
+        <name>Hettinger, Jakubowski and Kemmer</name>
+        <location>1 Bunting Court</location>
+        <rating>2</rating>
+        <book>
+            <id>74</id>
+        </book>
+    </library>
+    <library>
+        <name>Hills-Sporer</name>
+        <location>283 Sloan Lane</location>
+        <rating>9</rating>
+        <book>
+            <id>74</id>
+        </book>
+    </library>
+    <library>
+        <name>Adams-Schulist</name>
+        <location>2 Acker Crossing</location>
+        <rating>6</rating>
+        <book>
+            <id>145</id>
+        </book>
+    </library>
+    <library>
+        <name>Adams-Schulist</name>
+        <location>2 Acker Crossing</location>
+        <rating>6</rating>
+        <book>
+            <id>141</id>
+        </book>
+    </library>
+    <library>
+        <name>Adams-Schulist</name>
+        <location>2 Acker Crossing</location>
+        <rating>6</rating>
+        <book>
+            <id>142</id>
+        </book>
+    </library>
+    <library>
+        <name>Adams-Schulist</name>
+        <location>2 Acker Crossing</location>
+        <rating>6</rating>
+        <book>
+            <id>144</id>
+        </book>
+    </library>
+    <library>
+        <name>McKenzie-Kozey</name>
+        <location>1820 Dapin Circle</location>
+        <rating>10</rating>
+        <book>
+            <id>163</id>
+        </book>
+    </library>
+    <library>
+        <name>Wyman, Gleason and Conn</name>
+        <location>2 Sauthoff Road</location>
+        <rating>10</rating>
+        <book>
+            <id>75</id>
+        </book>
+    </library>
+    <library>
+        <name>Hand LLC</name>
+        <location>70 Vahlen Way</location>
+        <rating>8</rating>
+        <book>
+            <id>117</id>
+        </book>
+    </library>
+    <library>
+        <name>Hand LLC</name>
+        <location>70 Vahlen Way</location>
+        <rating>8</rating>
+        <book>
+            <id>17</id>
+        </book>
+    </library>
+    <library>
+        <name>Hand LLC</name>
+        <location>70 Vahlen Way</location>
+        <rating>8</rating>
+        <book>
+            <id>11</id>
+        </book>
+    </library>
+    <library>
+        <name>Hand LLC</name>
+        <location>70 Vahlen Way</location>
+        <rating>8</rating>
+        <book>
+            <id>116</id>
+        </book>
+    </library>
+    <library>
+        <name>Hand LLC</name>
+        <location>70 Vahlen Way</location>
+        <rating>8</rating>
+        <book>
+            <id>112</id>
+        </book>
+    </library>
+    <library>
+        <name>Hand LLC</name>
+        <location>70 Vahlen Way</location>
+        <rating>8</rating>
+        <book>
+            <id>107</id>
+        </book>
+    </library>
+    <library>
+        <name>McDermott, Fay and Johns</name>
+        <location>02809 Gerald Junction</location>
+        <rating>6</rating>
+        <book>
+            <id>90</id>
+        </book>
+    </library>
+    <library>
+        <name>McDermott, Fay and Johns</name>
+        <location>02809 Gerald Junction</location>
+        <rating>6</rating>
+        <book>
+            <id>80</id>
+        </book>
+    </library>
+    <library>
+        <name>McDermott, Fay and Johns</name>
+        <location>02809 Gerald Junction</location>
+        <rating>6</rating>
+        <book>
+            <id>10</id>
+        </book>
+    </library>
+    <library>
+        <name>McDermott, Fay and Johns</name>
+        <location>02809 Gerald Junction</location>
+        <rating>6</rating>
+        <book>
+            <id>20</id>
+        </book>
+    </library>
+    <library>
+        <name>McDermott, Fay and Johns</name>
+        <location>02809 Gerald Junction</location>
+        <rating>6</rating>
+        <book>
+            <id>93</id>
+        </book>
+    </library>
+    <library>
+        <name>Graham, Runolfsdottir and Marquardt</name>
+        <location>6633 Oneill Terrace</location>
+        <rating>6</rating>
+        <book>
+            <id>101</id>
+        </book>
+    </library>
+    <library>
+        <name>Graham, Runolfsdottir and Marquardt</name>
+        <location>6633 Oneill Terrace</location>
+        <rating>6</rating>
+        <book>
+            <id>111</id>
+        </book>
+    </library>
+    <library>
+        <name>Graham, Runolfsdottir and Marquardt</name>
+        <location>6633 Oneill Terrace</location>
+        <rating>6</rating>
+        <book>
+            <id>11</id>
+        </book>
+    </library>
+    <library>
+        <name>Graham, Runolfsdottir and Marquardt</name>
+        <location>6633 Oneill Terrace</location>
+        <rating>6</rating>
+        <book>
+            <id>1</id>
+        </book>
+    </library>
+    <library>
+        <name>Graham, Runolfsdottir and Marquardt</name>
+        <location>6633 Oneill Terrace</location>
+        <rating>6</rating>
+        <book>
+            <id>21</id>
+        </book>
+    </library>
+    <library>
+        <name>Graham, Runolfsdottir and Marquardt</name>
+        <location>6633 Oneill Terrace</location>
+        <rating>6</rating>
+        <book>
+            <id>12</id>
+        </book>
+    </library>
+    <library>
+        <name>Miller-Weber</name>
+        <location>86 Killdeer Plaza</location>
+        <rating>3</rating>
+        <book>
+            <id>87</id>
+        </book>
+    </library>
+    <library>
+        <name>Cummerata, Kertzmann and Boyer</name>
+        <location>0 Emmet Plaza</location>
+        <rating>8</rating>
+        <book>
+            <id>88</id>
+        </book>
+    </library>
+    <library>
+        <name>Schamberger-Lubowitz</name>
+        <location>36647 Brown Road</location>
+        <rating>5</rating>
+        <book>
+            <id>121</id>
+        </book>
+    </library>
+    <library>
+        <name>Predovic Group</name>
+        <location>5694 Bultman Place</location>
+        <rating>4</rating>
+        <book>
+            <id>40</id>
+        </book>
+    </library>
+    <library>
+        <name>Schultz, Lakin and Larson</name>
+        <location>09 Warner Drive</location>
+        <rating>10</rating>
+        <book>
+            <id>89</id>
+        </book>
+    </library>
+    <library>
+        <name>Abbott-Funk</name>
+        <location>79000 Nobel Avenue</location>
+        <rating>6</rating>
+        <book>
+            <id>106</id>
+        </book>
+    </library>
+    <library>
+        <name>Kris-Hessel</name>
+        <location>365 Mendota Circle</location>
+        <rating>4</rating>
+        <book>
+            <id>31</id>
+        </book>
+    </library>
+    <library>
+        <name>Greenfelder-Jaskolski</name>
+        <location>21851 4th Way</location>
+        <rating>8</rating>
+        <book>
+            <id>124</id>
+        </book>
+    </library>
+    <library>
+        <name>Ruecker and Sons</name>
+        <location>7456 Hooker Hill</location>
+        <rating>7</rating>
+        <book>
+            <id>9</id>
+        </book>
+    </library>
+    <library>
+        <name>Lueilwitz, Blick and Hoppe</name>
+        <location>7055 Sachtjen Avenue</location>
+        <rating>6</rating>
+        <book>
+            <id>44</id>
+        </book>
+    </library>
+    <library>
+        <name>Cronin, Crooks and Jacobi</name>
+        <location>3149 Judy Point</location>
+        <rating>10</rating>
+        <book>
+            <id>76</id>
+        </book>
+    </library>
+    <library>
+        <name>Hessel, Kris and Goyette</name>
+        <location>2 Algoma Crossing</location>
+        <rating>5</rating>
+        <book>
+            <id>155</id>
+        </book>
+    </library>
+    <library>
+        <name>Baumbach Inc</name>
+        <location>6 Maryland Crossing</location>
+        <rating>1</rating>
+        <book>
+            <id>92</id>
+        </book>
+    </library>
+    <library>
+        <name>Hermann, Runolfsdottir and Carroll</name>
+        <location>414 Charing Cross Junction</location>
+        <rating>5</rating>
+        <book>
+            <id>74</id>
+        </book>
+    </library>
+    <library>
+        <name>Nienow LLC</name>
+        <location>773 Brown Plaza</location>
+        <rating>7</rating>
+        <book>
+            <id>127</id>
+        </book>
+    </library>
+    <library>
+        <name>Feeney, Pfeffer and Kunze</name>
+        <location>505 Gina Pass</location>
+        <rating>9</rating>
+        <book>
+            <id>66</id>
+        </book>
+    </library>
+    <library>
+        <name>Feeney, Pfeffer and Kunze</name>
+        <location>505 Gina Pass</location>
+        <rating></rating>
+        <book>
+            <id>66</id>
+        </book>
+    </library>
+    <library>
+        <name>FeeKunze</name>
+        <location>505 Gina Pass</location>
+        <rating>977777</rating>
+        <book>
+            <id>66</id>
+        </book>
+    </library>
+    <library>
+        <name>Feeney, Pfeffer and Kunze</name>
+        <location>Pass</location>
+        <rating>9</rating>
+        <book>
+            <id>66</id>
+        </book>
+    </library>
+    <library>
+        <name>Goldner, Harris and Kreiger</name>
+        <location>9898 Sherman Lane</location>
+        <rating>1</rating>
+        <book>
+            <id>149</id>
+        </book>
+    </library>
+    <library>
+        <name>Johns Group</name>
+        <location>3169 Pepper Wood Hill</location>
+        <rating>3</rating>
+        <book>
+            <id>107</id>
+        </book>
+    </library>
+    <library>
+        <name>Johns Group</name>
+        <location>3169 Pepper Wood Hill</location>
+        <rating>3</rating>
+        <book>
+            <id>17</id>
+        </book>
+    </library>
+    <library>
+        <name>Johns Group</name>
+        <location>3169 Pepper Wood Hill</location>
+        <rating>3</rating>
+        <book>
+            <id>101</id>
+        </book>
+    </library>
+    <library>
+        <name>Johns Group</name>
+        <location>3169 Pepper Wood Hill</location>
+        <rating>3</rating>
+        <book>
+            <id>57</id>
+        </book>
+    </library>
+    <library>
+        <name>Johns Group</name>
+        <location>3169 Pepper Wood Hill</location>
+        <rating>3</rating>
+        <book>
+            <id>7</id>
+        </book>
+    </library>
+    <library>
+        <name>Johns Group</name>
+        <location>3169 Pepper Wood Hill</location>
+        <rating>3</rating>
+        <book>
+            <id>12</id>
+        </book>
+    </library>
+    <library>
+        <name>Ward, Abshire and Kutch</name>
+        <location>09145 Rutledge Plaza</location>
+        <rating>6</rating>
+        <book>
+            <id>32</id>
+        </book>
+    </library>
+    <library>
+        <name>Thompson-Schulist</name>
+        <location>66 Superior Plaza</location>
+        <rating>2</rating>
+        <book>
+            <id>36</id>
+        </book>
+    </library>
+    <library>
+        <name>Thompson-Schulist</name>
+        <location>66 Superior Plaza</location>
+        <rating>2</rating>
+        <book>
+            <id>26</id>
+        </book>
+    </library>
+    <library>
+        <name>Thompson-Schulist</name>
+        <location>66 Superior Plaza</location>
+        <rating>2</rating>
+        <book>
+            <id>16</id>
+        </book>
+    </library>
+    <library>
+        <name>Thompson-Schulist</name>
+        <location>66 Superior Plaza</location>
+        <rating>2</rating>
+        <book>
+            <id>6</id>
+        </book>
+    </library>
+    <library>
+        <name>Thompson-Schulist</name>
+        <location>66 Superior Plaza</location>
+        <rating>2</rating>
+        <book>
+            <id>56</id>
+        </book>
+    </library>
+    <library>
+        <name>Thompson-Schulist</name>
+        <location>66 Superior Plaza</location>
+        <rating>2</rating>
+        <book>
+            <id>66</id>
+        </book>
+    </library>
+    <library>
+        <name>Thompson-Schulist</name>
+        <location>66 Superior Plaza</location>
+        <rating>2</rating>
+        <book>
+            <id>37</id>
+        </book>
+    </library>
+    <library>
+        <name>Stroman-Simonis</name>
+        <location>620 Charing Cross Plaza</location>
+        <rating>10</rating>
+        <book>
+            <id>47</id>
+        </book>
+    </library>
+    <library>
+        <name>Hansen and Sons</name>
+        <location>75343 Eggendart Parkway</location>
+        <rating>4</rating>
+        <book>
+            <id>130</id>
+        </book>
+    </library>
+    <library>
+        <name>Hodkiewicz LLC</name>
+        <location>061 Bluestem Plaza</location>
+        <rating>4</rating>
+        <book>
+            <id>68</id>
+        </book>
+    </library>
+    <library>
+        <name>Hodkiewicz LLC</name>
+        <location>061 Bluestem Plaza</location>
+        <rating>4</rating>
+        <book>
+            <id>38</id>
+        </book>
+    </library>
+    <library>
+        <name>Hodkiewicz LLC</name>
+        <location>061 Bluestem Plaza</location>
+        <rating>4</rating>
+        <book>
+            <id>18</id>
+        </book>
+    </library>
+    <library>
+        <name>Hodkiewicz LLC</name>
+        <location>061 Bluestem Plaza</location>
+        <rating>4</rating>
+        <book>
+            <id>64</id>
+        </book>
+    </library>
+    <library>
+        <name>Kerluke, Collier and Abbott</name>
+        <location>94322 Gerald Lane</location>
+        <rating>4</rating>
+        <book>
+            <id>80</id>
+        </book>
+    </library>
+    <library>
+        <name>Kerluke, Collier and Abbott</name>
+        <location>94322 Gerald Lane</location>
+        <rating>4</rating>
+        <book>
+            <id>40</id>
+        </book>
+    </library>
+    <library>
+        <name>Stanton, Yost and Schuster</name>
+        <location>615 Lawn Pass</location>
+        <rating>3</rating>
+        <book>
+            <id>87</id>
+        </book>
+    </library>
+    <library>
+        <name>Stanton, Yost and Schuster</name>
+        <location>615 Lawn Pass</location>
+        <rating>3</rating>
+        <book>
+            <id>77</id>
+        </book>
+    </library>
+    <library>
+        <name>Bergnaum and Sons</name>
+        <location>59 Westridge Drive</location>
+        <rating>3</rating>
+        <book>
+            <id>25</id>
+        </book>
+    </library>
+    <library>
+        <name>Bergnaum and Sons</name>
+        <location>59 Westridge Drive</location>
+        <rating>3</rating>
+        <book>
+            <id>35</id>
+        </book>
+    </library>
+    <library>
+        <name>Emmerich-Wuckert</name>
+        <location>0458 Melody Center</location>
+        <rating>5</rating>
+        <book>
+            <id>41</id>
+        </book>
+    </library>
+    <library>
+        <name>Emmerich-Wuckert</name>
+        <location>0458 Melody Center</location>
+        <rating>5</rating>
+        <book>
+            <id>40</id>
+        </book>
+    </library>
+    <library>
+        <name>Schaden, Walter and Hyatt</name>
+        <location>8 Burrows Street</location>
+        <rating>10</rating>
+        <book>
+            <id>12</id>
+        </book>
+    </library>
+    <library>
+        <name>Schaden, Walter and Hyatt</name>
+        <location>8 Burrows Street</location>
+        <rating>10</rating>
+        <book>
+            <id>11</id>
+        </book>
+    </library>
+    <library>
+        <name>Schaden, Walter and Hyatt</name>
+        <location>8 Burrows Street</location>
+        <rating>10</rating>
+        <book>
+            <id>2</id>
+        </book>
+    </library>
+    <library>
+        <name>Heidenreich-Spinka</name>
+        <location>5839 Haas Way</location>
+        <rating>8</rating>
+        <book>
+            <id>40</id>
+        </book>
+    </library>
+    <library>
+        <name>Hudson, Kreiger and Flatley</name>
+        <location>0 Bellgrove Circle</location>
+        <rating>3</rating>
+        <book>
+            <id>143</id>
+        </book>
+    </library>
+    <library>
+        <name>Hudson, Kreiger and Flatley</name>
+        <location>0 Bellgrove Circle</location>
+        <rating>3</rating>
+        <book>
+            <id>13</id>
+        </book>
+    </library>
+    <library>
+        <name>Hudson, Kreiger and Flatley</name>
+        <location>0 Bellgrove Circle</location>
+        <rating>3</rating>
+        <book>
+            <id>43</id>
+        </book>
+    </library>
+    <library>
+        <name>Leuschke-Kreiger</name>
+        <location>8 Corscot Court</location>
+        <rating>3</rating>
+        <book>
+            <id>93</id>
+        </book>
+    </library>
+    <library>
+        <name>Macejkovic-Mayert</name>
+        <location>14 Westend Way</location>
+        <rating>8</rating>
+        <book>
+            <id>118</id>
+        </book>
+    </library>
+    <library>
+        <name>Wolf Group</name>
+        <location>9 Carioca Road</location>
+        <rating>5</rating>
+        <book>
+            <id>78</id>
+        </book>
+    </library>
+    <library>
+        <name>Rutherford LLC</name>
+        <location>3627 Corscot Drive</location>
+        <rating>10</rating>
+        <book>
+            <id>166</id>
+        </book>
+    </library>
+    <library>
+        <name>Trantow-Kovacek</name>
+        <location>318 6th Point</location>
+        <rating>10</rating>
+        <book>
+            <id>146</id>
+        </book>
+    </library>
+    <library>
+        <name>Johnston-Berge</name>
+        <location>51 Macpherson Street</location>
+        <rating>9</rating>
+        <book>
+            <id>114</id>
+        </book>
+    </library>
+    <library>
+        <name>Johnston-Berge</name>
+        <location>51 Macpherson Street</location>
+        <rating>9</rating>
+        <book>
+            <id>113</id>
+        </book>
+    </library>
+    <library>
+        <name>Johnston-Berge</name>
+        <location>51 Macpherson Street</location>
+        <rating>9</rating>
+        <book>
+            <id>14</id>
+        </book>
+    </library>
+    <library>
+        <name>Johnston-Berge</name>
+        <location>51 Macpherson Street</location>
+        <rating>9</rating>
+        <book>
+            <id>13</id>
+        </book>
+    </library>
+    <library>
+        <name>Johnston-Berge</name>
+        <location>51 Macpherson Street</location>
+        <rating>9</rating>
+        <book>
+            <id>112</id>
+        </book>
+    </library>
+    <library>
+        <name>Crist and Sons</name>
+        <location>2 2nd Alley</location>
+        <rating>9</rating>
+        <book>
+            <id>120</id>
+        </book>
+    </library>
+    <library>
+        <name>Daugherty, Rohan and Ortiz</name>
+        <location>2 Westridge Avenue</location>
+        <rating>2</rating>
+        <book>
+            <id>44</id>
+        </book>
+    </library>
+    <library>
+        <name>McClure-Cremin</name>
+        <location>0609 Heath Point</location>
+        <rating>9</rating>
+        <book>
+            <id>162</id>
+        </book>
+    </library>
+    <library>
+        <name>McClure-Cremin</name>
+        <location>0609 Heath Point</location>
+        <rating>9</rating>
+        <book>
+            <id>12</id>
+        </book>
+    </library>
+    <library>
+        <name>McClure-Cremin</name>
+        <location>0609 Heath Point</location>
+        <rating>9</rating>
+        <book>
+            <id>16</id>
+        </book>
+    </library>
+    <library>
+        <name>McClure-Cremin</name>
+        <location>0609 Heath Point</location>
+        <rating>9</rating>
+        <book>
+            <id>62</id>
+        </book>
+    </library>
+    <library>
+        <name>McClure-Cremin</name>
+        <location>0609 Heath Point</location>
+        <rating>9</rating>
+        <book>
+            <id>1</id>
+        </book>
+    </library>
+    <library>
+        <name>McClure-Cremin</name>
+        <location>0609 Heath Point</location>
+        <rating>9</rating>
+        <book>
+            <id>2</id>
+        </book>
+    </library>
+    <library>
+        <name>McClure-Cremin</name>
+        <location>0609 Heath Point</location>
+        <rating>9</rating>
+        <book>
+            <id>6</id>
+        </book>
+    </library>
+    <library>
+        <name>Bernhard, Gusikowski and Bernier</name>
+        <location>68368 Porter Junction</location>
+        <rating>9</rating>
+        <book>
+            <id>104</id>
+        </book>
+    </library>
+    <library>
+        <name>Kshlerin, Heidenreich and Connelly</name>
+        <location>746 Northport Junction</location>
+        <rating>5</rating>
+        <book>
+            <id>88</id>
+        </book>
+    </library>
+    <library>
+        <name>Schmitt Group</name>
+        <location>745 Packers Drive</location>
+        <rating>3</rating>
+        <book>
+            <id>8</id>
+        </book>
+    </library>
+    <library>
+        <name>Wiza, Adams and Batz</name>
+        <location>67504 Milwaukee Trail</location>
+        <rating>5</rating>
+        <book>
+            <id>96</id>
+        </book>
+    </library>
+    <library>
+        <name>Ernser-Corkery</name>
+        <location>50 Kedzie Crossing</location>
+        <rating>9</rating>
+        <book>
+            <id>90</id>
+        </book>
+    </library>
+    <library>
+        <name>Raynor, Schinner and Tremblay</name>
+        <location>34104 Lukken Road</location>
+        <rating>5</rating>
+        <book>
+            <id>3</id>
+        </book>
+    </library>
+    <library>
+        <name>Gerlach-Cruickshank</name>
+        <location>12808 Cottonwood Hill</location>
+        <rating>3</rating>
+        <book>
+            <id>58</id>
+        </book>
+    </library>
+    <library>
+        <name>Klocko, Gerlach and Renner</name>
+        <location>45805 Crescent Oaks Plaza</location>
+        <rating>4</rating>
+        <book>
+            <id>55</id>
+        </book>
+    </library>
+    <library>
+        <name>Padberg-Hagenes</name>
+        <location>3 Derek Drive</location>
+        <rating>5</rating>
+        <book>
+            <id>106</id>
+        </book>
+    </library>
+    <library>
+        <name>Schroeder-Schowalter</name>
+        <location>76 Sloan Junction</location>
+        <rating>10</rating>
+        <book>
+            <id>27</id>
+        </book>
+    </library>
+    <library>
+        <name>Kreiger-Langosh</name>
+        <location>7797 Transport Alley</location>
+        <rating>3</rating>
+        <book>
+            <id>109</id>
+        </book>
+    </library>
+    <library>
+        <name>Will Inc</name>
+        <location>435 Fieldstone Crossing</location>
+        <rating>10</rating>
+        <book>
+            <id>146</id>
+        </book>
+    </library>
+    <library>
+        <name>Will Inc</name>
+        <location>435 Fieldstone Crossing</location>
+        <rating>10</rating>
+        <book>
+            <id>46</id>
+        </book>
+    </library>
+    <library>
+        <name>Will Inc</name>
+        <location>435 Fieldstone Crossing</location>
+        <rating>10</rating>
+        <book>
+            <id>16</id>
+        </book>
+    </library>
+    <library>
+        <name>Will Inc</name>
+        <location>435 Fieldstone Crossing</location>
+        <rating>10</rating>
+        <book>
+            <id>14</id>
+        </book>
+    </library>
+    <library>
+        <name>White-Farrell</name>
+        <location>95 Hayes Road</location>
+        <rating>3</rating>
+        <book>
+            <id>149</id>
+        </book>
+    </library>
+    <library>
+        <name>Abshire Inc</name>
+        <location>2 Birchwood Lane</location>
+        <rating>6</rating>
+        <book>
+            <id>87</id>
+        </book>
+    </library>
+    <library>
+        <name>Yost Inc</name>
+        <location>279 Macpherson Park</location>
+        <rating>4</rating>
+        <book>
+            <id>146</id>
+        </book>
+    </library>
+    <library>
+        <name>Barrows-Kuphal</name>
+        <location>9 Cordelia Place</location>
+        <rating>4</rating>
+        <book>
+            <id>79</id>
+        </book>
+    </library>
+    <library>
+        <name>Boyer-Murray</name>
+        <location>2671 Darwin Place</location>
+        <rating>9</rating>
+        <book>
+            <id>32</id>
+        </book>
+    </library>
+    <library>
+        <name>Heidenreich, McDermott and Huels</name>
+        <location>1833 Loftsgordon Drive</location>
+        <rating>1</rating>
+        <book>
+            <id>92</id>
+        </book>
+    </library>
+    <library>
+        <name>Hettinger Group</name>
+        <location>7391 Warbler Trail</location>
+        <rating>2</rating>
+        <book>
+            <id>43</id>
+        </book>
+    </library>
+    <library>
+        <name>Murray LLC</name>
+        <location>7 International Parkway</location>
+        <rating>5</rating>
+        <book>
+            <id>113</id>
+        </book>
+    </library>
+    <library>
+        <name>Carroll and Sons</name>
+        <location>0 Dryden Junction</location>
+        <rating>3</rating>
+        <book>
+            <id>82</id>
+        </book>
+    </library>
+    <library>
+        <name>Corwin-O'Connell</name>
+        <location>410 Kinsman Way</location>
+        <rating>4</rating>
+        <book>
+            <id>162</id>
+        </book>
+    </library>
+    <library>
+        <name>Pollich and Sons</name>
+        <location>9 Sutteridge Park</location>
+        <rating>9</rating>
+        <book>
+            <id>128</id>
+        </book>
+    </library>
+    <library>
+        <name>Olson, Bergstrom and Hegmann</name>
+        <location>1949 Briar Crest Drive</location>
+        <rating>8</rating>
+        <book>
+            <id>53</id>
+        </book>
+    </library>
+    <library>
+        <name>Spencer and Sons</name>
+        <location>93 Clove Center</location>
+        <rating>1</rating>
+        <book>
+            <id>107</id>
+        </book>
+    </library>
+    <library>
+        <name>Kihn LLC</name>
+        <location>00 Oxford Center</location>
+        <rating>5</rating>
+        <book>
+            <id>132</id>
+        </book>
+    </library>
+    <library>
+        <name>Moen Inc</name>
+        <location>589 Elka Point</location>
+        <rating>6</rating>
+        <book>
+            <id>80</id>
+        </book>
+    </library>
+    <library>
+        <name>Crist-Kub</name>
+        <location>82384 Onsgard Park</location>
+        <rating>1</rating>
+        <book>
+            <id>75</id>
+        </book>
+    </library>
+    <library>
+        <name>Wunsch, Toy and Daugherty</name>
+        <location>04095 Scoville Way</location>
+        <rating>6</rating>
+        <book>
+            <id>25</id>
+        </book>
+    </library>
+    <library>
+        <name>Pagac Inc</name>
+        <location>00 Monica Way</location>
+        <rating>7</rating>
+        <book>
+            <id>59</id>
+        </book>
+    </library>
+    <library>
+        <name>Pouros-Kshlerin</name>
+        <location>9 Mesta Crossing</location>
+        <rating>5</rating>
+        <book>
+            <id>22</id>
+        </book>
+    </library>
+    <library>
+        <name>Schulist Inc</name>
+        <location>4 Kensington Circle</location>
+        <rating>5</rating>
+        <book>
+            <id>11</id>
+        </book>
+    </library>
+    <library>
+        <name>Kulas, Davis and Hane</name>
+        <location>98409 Jay Hill</location>
+        <rating>6</rating>
+        <book>
+            <id>103</id>
+        </book>
+    </library>
+    <library>
+        <name>DuBuque, Schumm and Raynor</name>
+        <location>62 Fuller Lane</location>
+        <rating>2</rating>
+        <book>
+            <id>47</id>
+        </book>
+    </library>
+    <library>
+        <name>Weimann, Barrows and D'Amore</name>
+        <location>59 Warner Drive</location>
+        <rating>3</rating>
+        <book>
+            <id>13</id>
+        </book>
+    </library>
+    <library>
+        <name>Runolfsdottir-DuBuque</name>
+        <location>9462 Claremont Junction</location>
+        <rating>1</rating>
+        <book>
+            <id>76</id>
+        </book>
+    </library>
+    <library>
+        <name>Kuphal Inc</name>
+        <location>308 Everett Junction</location>
+        <rating>7</rating>
+        <book>
+            <id>9</id>
+        </book>
+    </library>
+    <library>
+        <name>Thiel Group</name>
+        <location>8333 Mcguire Trail</location>
+        <rating>8</rating>
+        <book>
+            <id>89</id>
+        </book>
+    </library>
+    <library>
+        <name>Zieme-Tillman</name>
+        <location>5316 Forest Dale Circle</location>
+        <rating>9</rating>
+        <book>
+            <id>22</id>
+        </book>
+    </library>
+    <library>
+        <name>Koepp-Aufderhar</name>
+        <location>2 Nova Drive</location>
+        <rating>1</rating>
+        <book>
+            <id>63</id>
+        </book>
+    </library>
+    <library>
+        <name>Bayer-Gusikowski</name>
+        <location>61299 Weeping Birch Crossing</location>
+        <rating>3</rating>
+        <book>
+            <id>155</id>
+        </book>
+    </library>
+    <library>
+        <name>Schoen-Pacocha</name>
+        <location>2 Dixon Hill</location>
+        <rating>1</rating>
+        <book>
+            <id>162</id>
+        </book>
+    </library>
+    <library>
+        <name>Schaefer, Rogahn and Fadel</name>
+        <location>20728 Petterle Alley</location>
+        <rating>5</rating>
+        <book>
+            <id>167</id>
+        </book>
+    </library>
+    <library>
+        <name>King-Russel</name>
+        <location>99275 Farragut Junction</location>
+        <rating>4</rating>
+        <book>
+            <id>161</id>
+        </book>
+    </library>
+    <library>
+        <name>Rowe-Hoppe</name>
+        <location>628 Continental Crossing</location>
+        <rating>5</rating>
+        <book>
+            <id>159</id>
+        </book>
+    </library>
+    <library>
+        <name>Leannon-Russel</name>
+        <location>83 Nova Pass</location>
+        <rating>5</rating>
+        <book>
+            <id>102</id>
+        </book>
+    </library>
+    <library>
+        <name>Hahn Group</name>
+        <location>92387 Kenwood Center</location>
+        <rating>6</rating>
+        <book>
+            <id>46</id>
+        </book>
+    </library>
+    <library>
+        <name>Glover, Schneider and Purdy</name>
+        <location>83010 Coolidge Plaza</location>
+        <rating>8</rating>
+        <book>
+            <id>86</id>
+        </book>
+    </library>
+    <library>
+        <name>Glover, Schneider and Purdy</name>
+        <location>83010 Coolidge Plaza</location>
+        <rating></rating>
+        <book>
+            <id>86</id>
+        </book>
+    </library>
+    <library>
+        <name>Glover, Schneider</name>
+        <location>Co</location>
+        <rating>8</rating>
+        <book>
+            <id>86</id>
+        </book>
+    </library>
+    <library>
+        <name>Glover and Purdy</name>
+        <location>83010 Coolidge Plaza</location>
+        <rating>88888888888888888</rating>
+        <book>
+            <id>86</id>
+        </book>
+    </library>
+    <library>
+        <name>Gl</name>
+        <location>83010 Coolidge Plaza</location>
+        <rating>8</rating>
+        <book>
+            <id>86</id>
+        </book>
+    </library>
+</libraries>
