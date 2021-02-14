@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:include="/fragments/head"></th:block>
+
+<body>
+
+<th:block th:include="/fragments/header"></th:block>
+
+<main>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2"></div>
+            <main class="jumbotron text-center rounded col-md-12 align-self-center">
+                <div class="justify-content-center">
+                    <h1>Company Details</h1>
+                </div>
+                <div class="row" th:object="${company}">
+                    <div class="col-md-6 bg-dark"><img src="/pic/company.png" height="350px"></div>
+                    <div class="col-md-6 bg-dark">
+                        <h2>Company</h2>
+                        <h4 th:text="|Name: ${company.name}|">Name: {name}</h4>
+                        <h4 th:text="|Town: ${company.town}|">Town: {town}</h4>
+                        <h4 th:text="|Description: ${company.description}|">Description: {description}</h4>
+                        <h4 th:text="|Budget: ${company.budget}|">Budget: {budget}</h4>
+                        <form th:action="@{/companies/company/{id}(id=${company.id})}" method="POST">
+                            <div class="align-bottom"><button class="btn btn-danger align-bottom"
+                                                         type="submit" >Delete company</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</main>
+
+<th:block th:include="/fragments/footer"></th:block>
+
+</body>
+</html>

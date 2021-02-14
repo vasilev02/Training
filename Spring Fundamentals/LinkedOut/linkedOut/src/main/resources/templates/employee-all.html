@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:include="/fragments/head"></th:block>
+
+<body>
+
+<th:block th:include="/fragments/header"></th:block>
+
+<main>
+    <div class="container">
+        <h2 class="text-center text-dark bg-light rounded-circle mt-5">All employees</h2>
+        <hr style="width: 50%"/>
+        <div class='row mb-4 d-flex justify-content-around'>
+            
+                <div class="col-md-4 d-flex flex-column bg-text mb-3 rounded" th:each="e : ${employees}">
+<!--                    <p>[[${e.firstName}]]</p>-->
+                    <h2>Full name: <span th:text="${e.firstName}"></span> <span th:text="${e.lastName}"></span></h2>
+                    <h4>Job title: <span th:text="${e.jobTitle}"></span></h4>
+                    <h4>Birth Date: <span th:text="${e.birthdate}"></span></h4>
+                    <h4><a class="btn-block" th:href="@{/employees/employee/{id}(id=${e.id})}">Detail info</a></h4>
+                </div>
+          
+        </div>
+    </div>
+</main>
+
+<th:block th:include="/fragments/footer"></th:block>
+
+</body>
+</html>

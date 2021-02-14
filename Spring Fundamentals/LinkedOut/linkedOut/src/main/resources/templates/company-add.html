@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:include="/fragments/head"></th:block>
+
+<body>
+
+<th:block th:include="/fragments/header"></th:block>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <main class="jumbotron text-center rounded col-md-8 align-self-center">
+        <div class="justify-content-center">
+            <h1>Add Company</h1>
+        </div>
+        <form class="m-md-auto w-50 text-center" action="/companies/add" method="POST" th:object="${companyAddBindingModel}">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input th:field="*{name}" th:errorclass="bg-danger" type="text" class="form-control text-center" id="name" aria-describedby="nameHelp"
+				name="name"/>
+                <small th:if="${#fields.hasErrors('name')}" th:errors="*{name}">Error message</small>
+                <small th:if="${isExist}">Company with this name already exist</small>
+            </div>
+
+            <div class="form-group">
+                <label for="town">Town</label>
+                <input th:field="*{town}" th:errorclass="bg-danger" type="text" class="form-control text-center" id="town" aria-describedby="town"
+				name="town"/>
+                <small th:if="${#fields.hasErrors('town')}" th:errors="*{town}">Error message</small>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input th:field="*{description}" th:errorclass="bg-danger" type="text" class="form-control text-center"
+				id="description" aria-describedby="description" name="description"/>
+                <small th:if="${#fields.hasErrors('description')}" th:errors="*{description}">Error message</small>
+            </div>
+
+            <div class="form-group">
+                <label for="budget">Budget</label>
+                <input th:field="*{budget}" th:errorclass="bg-danger" type="number" min="0" class="form-control text-center"
+				id="budget" aria-describedby="town" name="budget"/>
+                <small th:if="${#fields.hasErrors('budget')}" th:errors="*{budget}">Budget</small>
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Add Company</button>
+        </form>
+    </main>
+</div>
+
+<th:block th:include="/fragments/footer"></th:block>
+
+</body>
+</html>

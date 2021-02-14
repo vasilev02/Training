@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:include="/fragments/head"></th:block>
+
+<body>
+
+<th:block th:include="/fragments/header"></th:block>
+
+<main>
+    <div class="container">
+        <h2 class="text-center text-dark bg-light rounded-circle mt-5">All companies</h2>
+        <hr style="width: 50%"/>
+        <div class='row mb-4 d-flex justify-content-around'>
+          
+                <div class="col-md-4 d-flex flex-column bg-text mb-3 rounded-circle" th:each="c : ${companies}">
+                    <h2>Company: <span th:text="${c.name}"></span></h2>
+                    <h4>Town: <span th:text="${c.town}"></span></h4>
+                    <h4>Description: <span th:text="${#strings.substring(c.description,0,5)}"></span> ...</h4>
+                    <h4><a class="btn-block" th:href="@{/companies/company/{id}(id=${c.id})}">Detail info</a></h4>
+                </div>
+          
+        </div>
+    </div>
+</main>
+
+<th:block th:include="/fragments/footer"></th:block>
+
+</body>
+</html>
