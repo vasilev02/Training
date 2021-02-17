@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:include="fragments/head"></th:block>
+
+<body>
+
+<th:block th:include="fragments/header"></th:block>
+
+<main>
+    <div class="text-center mb-3">
+        <h4 class="text-white mt-2" th:text="|Welcome to the arena, ${session.user.username}|">Welcome to the arena, {username}}</h4>
+    </div>
+    <hr class="my-3"/>
+    <div class="container">
+
+        <div class="row mb-4 d-flex justify-content-around">
+
+            <div th:each="h : ${heroes}" th:object="${h}" class="col-md-3 d-flex flex-column text-center mb-3">
+                <img th:if="*{heroClass == 'MAGE'}" src="/img/mage.jpg" class="img-thumb" width="300" height="300"/>
+                <img th:if="*{heroClass == 'WARRIOR'}" src="/img/warrior.jpg" class="img-thumb" width="300" height="300"/>
+                <img th:if="*{heroClass == 'ARCHER'}" src="/img/archer.jpg" class="img-thumb" width="300" height="300"/>
+                <h5 class="text-white text-center" th:text="*{heroName}">Warrior</h5>
+
+                <form method="GET" th:action="@{/heroes/hero/{id}(id = *{id})}">
+                    <button class="btn btn-info" type="submit" >Details</button>
+                </form>
+
+                <form method="POST" th:action="@{/heroes/hero/{id}(id = *{id})}">
+                    <button class="btn btn-danger" type="submit" >Delete</button>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+</main>
+<span style="visibility: hidden">...</span>
+
+<th:block th:include="fragments/footer"></th:block>
+
+</body>
+</html>

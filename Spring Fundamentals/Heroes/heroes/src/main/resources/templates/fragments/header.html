@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<th:block>
+    <header>
+        <nav class="navbar bg-dark navbar-expand-lg navbar-background bg-dark ">
+            <a class="navbar-brand text-white h4" href="/">Heroes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                <ul class="navbar-nav row">
+                    <li th:if="${session.user == null}" class="nav-item col-md-4">
+                        <a class="nav-link text-white active h5" href="/">Home</a>
+                    </li>
+                    <li th:if="${session.user == null}" class="nav-item col-md-4">
+                        <a class="nav-link text-white active h5" href="/users/login">Login</a>
+                    </li>
+                    <li th:if="${session.user == null}" class="nav-item col-md-4">
+                        <a class="nav-link text-white active h5" href="/users/register">Register</a>
+                    </li>
+                    <li th:if="${session.user != null}" class="nav-item col-md-4">
+                        <a class="nav-link text-white active h5" href="/">Home</a>
+                    </li>
+                    <li th:if="${session.user != null}" class="nav-item col-md-4">
+                        <a class="nav-link text-white  active h5" href="/heroes/create">Create Hero</a>
+                    </li>
+                    <li th:if="${session.user != null}" class="nav-item col-md-4">
+                        <form>
+                            <a class="nav-link text-white active h5" href="/logout">Logout</a>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</th:block>
