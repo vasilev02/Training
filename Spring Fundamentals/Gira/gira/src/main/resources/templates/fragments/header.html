@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<th:block>
+    <header>
+        <nav class="navbar navbar-expand-lg ">
+      <span class="col-md-1">
+        <img src="/img/projectLogo.png" alt="Logo" width="50" height="50">
+      </span>
+            <a class="navbar-brand active col-md-1 title" href="/">Gira</a>
+            <div class="collapse navbar-collapse  d-flex justify-content-end">
+                <ul class="navbar-nav row">
+
+                    <th:block th:if="${session.user == null}">
+                        <li class="nav-item col-md-5">
+                            <a class="button" href="/users/login">Login</a>
+                        </li>
+                        <li class="nav-item col-md-5">
+                            <a class="button" href="/users/register">Register</a>
+                        </li>
+                    </th:block>
+
+
+                    <th:block th:if="${session.user != null}">
+                        <li class="nav-item col-md-6">
+                            <a class="button text-nowrap" href="/tasks/add">Add Task</a>
+                        </li>
+                        <li class="nav-item col-md-5">
+                            <a class="button" href="/users/logout">Logout</a>
+                        </li>
+                    </th:block>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+</th:block>
