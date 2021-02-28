@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<th:block th:include="/fragments/head"></th:block>
+
+<body >
+<div class="container">
+    <th:block th:include="/fragments/navigation"></th:block>
+    <!-- row -->
+    <div class="row tm-mt-big justify-content-center">
+        <div class="col-xl-8 col-lg-10 col-md-12 col-sm-12">
+            <div class="bg-white tm-block">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="tm-block-title d-inline-block">Add Exercise</h2>
+                    </div>
+                </div>
+                <div class="row mt-4 tm-edit-product-row">
+                    <div class="col-xl-7 col-lg-7 col-md-12">
+                        <form action="/exercises/add" method="POST" th:object="${exerciseAddBindingModel}"
+                              class="tm-edit-product-form" >
+                            <div class="input-group mb-3">
+                                <label  for="name" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Name
+                                </label>
+                                <input th:field="*{name}" th:errorclass="bg-danger" id="name" name="name" type="text" class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7"/>
+
+                            </div>
+                            <div th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="input-group mb-3 justify-content-center">
+                                
+                                    <small class="text-danger">Exercise name length must be more than 2 characters</small>
+                                
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="startedOn" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">StartedOn Date
+                                </label>
+                                <input th:field="*{startedOn}" th:errorclass="bg-danger" id="startedOn" name="startedOn" type="datetime-local"
+                                       class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7"
+                                       data-large-mode="true"/>
+
+                            </div>
+                            <div th:if="${#fields.hasErrors('startedOn')}" th:errors="*{startedOn}" class="input-group mb-3 justify-content-center">
+                                
+                                    <small class="text-danger">The date cannot be in the future!</small>
+                                
+                            </div>
+                            <div class="input-group mb-3 ">
+
+                                <label for="dueDate" class="col-xl-4 col-lg-4 col-md-4 col-sm-5 col-form-label">Due Date
+                                </label>
+                                <input th:field="*{dueDate}" th:errorclass="bg-danger"  id="dueDate" name="dueDate" type="datetime-local"
+                                       class="form-control validate col-xl-9 col-lg-8 col-md-8 col-sm-7"
+                                       data-large-mode="true"/>
+                            </div>
+                            <div th:if="${#fields.hasErrors('dueDate')}" th:errors="*{dueDate}" class="input-group mb-3 justify-content-center">
+                                
+                                    <small class="text-danger" >The date cannot be in the past!</small>
+                               
+                            </div>
+                            <div class="input-group mb-3">
+                                <div class="ml-auto col-xl-8 col-lg-8 col-md-8 col-sm-7 pl-0">
+                                    <button type="submit" class="btn btn-primary">Add
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 mx-auto mb-4">
+                        <img src="/img/2.jpg" alt="Exercise picture" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <th:block th:include="/fragments/footer"></th:block>
+</div>
+
+</body>
+
+</html>
