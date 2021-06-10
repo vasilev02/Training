@@ -1,0 +1,18 @@
+html {
+  font-family: Helvetica, sans-serif;
+  color: rgb(51, 51, 51);
+}
+
+body {
+  background: rgb(238, 238, 238);
+}
+
+article {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  width: 500px;
+  height: 400px;
+}

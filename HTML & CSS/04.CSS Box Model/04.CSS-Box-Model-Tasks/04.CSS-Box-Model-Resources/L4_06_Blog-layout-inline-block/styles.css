@@ -1,0 +1,32 @@
+html {
+    font-family: Helvetica, sans-serif;
+    color: rgb(51, 51, 51);
+    background: #EEE;
+  }
+  
+  body {
+    background: rgb(238, 238, 238);
+    margin: 30px 70px;
+  }
+  
+  article {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  img {
+    width: 500px;
+    height: 400px;
+  }
+
+  article, aside{
+      display: inline-block;
+  }
+
+  aside{
+      vertical-align: top;
+      max-width: 300px;
+  }
+
+  
+  
