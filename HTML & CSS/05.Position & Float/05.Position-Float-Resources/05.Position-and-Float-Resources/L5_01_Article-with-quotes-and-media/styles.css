@@ -1,0 +1,54 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #eeeeee;
+}
+
+body {
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.site-title {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+}
+
+.first-image {
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 0px 0px 14px -2px #000000;
+  float: right;
+}
+
+blockquote {
+  max-width: 370px;
+  border-left: 2px solid gray;
+  color: gray;
+  font-style: italic;
+  padding-left: 20px;
+  float: right;
+  margin: 0px 30px;
+}
+.blockquote-author {
+  text-align: right;
+  padding-bottom: 15px;
+}
+
+.blockquote-text {
+  margin-top: 0px;
+}
+
+.second-image {
+  border: 2px solid black;
+  padding: 5px;
+  box-shadow: 0px 0px 14px -2px #000000;
+  float: left;
+  margin-right: 15px;
+}
