@@ -1,0 +1,35 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  background: #eee;
+  padding: 50px 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  background: #fff;
+  flex-shrink: 1;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 7px 0px #000000;
+  border: 1px solid grey;
+}
+
+.header,
+.footer {
+  padding-bottom: 30px;
+  flex-basis: 100%;
+}
+
+.main {
+  padding-bottom: 200px;
+  flex-grow: 4;
+}
+
+.aside {
+  padding-bottom: 200px;
+  flex-grow: 1;
+}

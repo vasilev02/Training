@@ -1,0 +1,35 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 50px 70px;
+}
+
+header {
+  display: flex;
+  margin-top: 70px;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  justify-content: space-between;
+}
+nav {
+  display: flex;
+}
+
+.list {
+  display: flex;
+}
+
+h1 {
+  font-weight: bold;
+  color: black;
+}
+
+li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+a {
+  color: rgb(0, 153, 0);
+}
