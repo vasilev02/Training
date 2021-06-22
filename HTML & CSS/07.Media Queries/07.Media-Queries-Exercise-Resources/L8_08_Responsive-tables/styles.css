@@ -1,0 +1,47 @@
+html {
+  font-family: Helvetica, sans-serif;
+  background: #eee;
+  font-weight: bold;
+}
+
+table {
+  border: 1px solid grey;
+  padding: 10px;
+  margin: 100px auto;
+}
+
+th,
+td {
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 170px;
+  text-align: left;
+  border: 1px solid grey;
+}
+
+thead {
+  background: #333;
+  color: white;
+}
+
+tbody tr:nth-child(2) {
+  background: white;
+}
+
+@media screen and (max-width: 900px) {
+  th,
+  td {
+    padding-right: 70px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  thead {
+    display: none;
+  }
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+}

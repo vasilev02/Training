@@ -1,0 +1,86 @@
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  background: #f8f8f8;
+  border: 1px solid black;
+  box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.79);
+  border-radius: 4px;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  position: relative;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
+}
+
+legend {
+  border: 1px solid black;
+  padding: 8px;
+  padding-right: 70px;
+  border-radius: 4px;
+  position: absolute;
+  top: -20px;
+  left: -1px;
+  color: black;
+  background: #f8f8f8;
+  font-weight: normal;
+}
+
+.label-title {
+  padding-right: 5px;
+}
+
+label {
+  display: flex;
+  padding-bottom: 20px;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+
+i {
+  position: absolute;
+  top: 17px;
+  left: 88px;
+}
+
+input {
+  border-radius: 4px;
+  border: 1px solid grey;
+  padding: 5px;
+  padding-left: 25px;
+  width: 100%;
+}
+
+button {
+  background: #2d2d2d;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  padding: 6px 16px;
+  border: none;
+}
+
+@media screen and (max-width: 900px) {
+  label {
+    flex-direction: column;
+    align-items: normal;
+  }
+  i {
+    top: 56px;
+    left: 9px;
+  }
+}
