@@ -1,0 +1,34 @@
+/* TODO: Add the responsive styles here */
+
+@media screen and (max-width: 600px) {
+  .w3-right,
+  .w3-hide-small {
+    display: none;
+  }
+
+  .w3-row,
+  .w3-padding-64 {
+    display: flex;
+    justify-content: center;
+  }
+
+  #about > article:nth-child(2) {
+    width: unset;
+  }
+
+  #menu {
+    flex-direction: column;
+  }
+
+  #menu > article:nth-child(1) {
+    width: unset;
+  }
+
+  #menu > article:nth-child(2) {
+    width: unset;
+  }
+
+  #contact {
+    flex-direction: column;
+  }
+}
