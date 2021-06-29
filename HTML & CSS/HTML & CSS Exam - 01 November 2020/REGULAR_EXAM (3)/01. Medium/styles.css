@@ -1,0 +1,58 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
+}
+
+.article {
+  max-width: 1000px;
+  margin: 100px auto;
+  padding-bottom: 20px;
+  background: linear-gradient(grey, grey) 50% calc(100% - 2px) / 30% 1px
+    no-repeat;
+}
+
+.article-title {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.article-info {
+  display: flex;
+}
+
+.article-text,
+.section-text {
+  color: #757575;
+}
+
+.article-info section:nth-child(1) {
+  display: flex;
+  flex-basis: 40%;
+  align-items: flex-end;
+}
+
+.article-info section:nth-child(2) {
+  flex-basis: 50%;
+}
+
+.inner-text {
+  background: #cefde9;
+}
+
+.section-button {
+  padding: 5px 30px;
+  color: white;
+  background: #03a87c;
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
