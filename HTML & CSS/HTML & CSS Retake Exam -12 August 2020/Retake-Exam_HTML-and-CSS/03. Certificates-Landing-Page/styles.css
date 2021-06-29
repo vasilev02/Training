@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+html {
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(./images/hero-certificates.jpg);
+  background-repeat: no-repeat;
+  padding-bottom: 70px;
+}
+
+.navigation-header {
+  display: flex;
+  justify-content: space-between;
+  background: #ffffff;
+  margin: 0px 100px;
+  padding: 10px 30px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 11px -2px #000000;
+}
+
+.list {
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+
+.list li {
+  margin-right: 15px;
+}
+
+.list li:last-child {
+  background: #42abf8;
+  border-radius: 50%;
+  box-shadow: 0px 0px 11px 1px #42abf8;
+  margin-right: 0px;
+  padding: 3px;
+}
+
+.list li:nth-child(3)::before {
+  content: "";
+  position: absolute;
+  border: 3px solid #42abf8;
+  width: 75px;
+  bottom: 46px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #29394b;
+}
+
+.list li:last-child a {
+  color: white;
+}
+
+header img {
+  max-width: 170px;
+}
+
+.logo-header img {
+  max-width: 170px;
+  display: block;
+}
+
+.page-info {
+  margin: 50px 150px;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.certificates {
+  align-self: flex-end;
+}
+
+.certificates {
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-end;
+  margin-left: 40px;
+}
+
+.certificates img:last-child {
+  max-width: 190px;
+}
+
+.page-info > p {
+  font-style: italic;
+  color: gray;
+}
+
+.about {
+  color: white;
+  background: #29394b;
+  max-width: 570px;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.diploma-info {
+  margin: 50px 150px;
+  color: #29394b;
+}
+
+.diploma-info h2 {
+  text-align: center;
+}
+
+.diploma-about {
+  padding: 10px;
+  background: #f4f5f7;
+}
+
+.cta {
+  position: relative;
+  margin: 50px 150px;
+  background-image: linear-gradient(
+      rgba(90, 100, 156, 0.3),
+      rgba(90, 100, 156, 0.3)
+    ),
+    url(./images/sign-up-prompt-background.jpg);
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0px 0px 11px -2px #000000;
+  padding: 50px;
+}
+
+.cta-buttons button {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+}
+
+.cta-buttons button:first-child {
+  background: #ffffff;
+  color: #42abf8;
+  margin-right: 25px;
+  position: relative;
+}
+
+.cta-buttons button:first-child::after {
+  content: "";
+  position: absolute;
+  background: white;
+  width: 1px;
+  height: 31px;
+  left: 108px;
+  bottom: 1px;
+}
+
+.cta-buttons button:last-child {
+  background: transparent;
+  color: white;
+  border: none;
+  border: 1px solid white;
+  margin-left: 25px;
+}
+
+.cta-buttons::after {
+  content: "";
+  position: absolute;
+  background: black;
+  width: 1080px;
+  height: 1px;
+  left: 0px;
+  bottom: 1px;
+  top: 300px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  margin: 50px 150px;
+  margin-top: 100px;
+}
+
+.footer-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #29394b;
+  margin-right: 15px;
+}
+
+footer > p {
+  color: lightgray;
+  margin-left: 20px;
+}
+
+footer img {
+  max-width: 170px;
+}
