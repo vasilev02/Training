@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 30px 50px;
+}
+
+.list a {
+  text-decoration: none;
+  color: #9d9d9d;
+  text-transform: uppercase;
+}
+
+.beats-info {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  margin-top: 80px;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.beats-content {
+  flex-basis: 50%;
+  max-width: 340px;
+  font-weight: 400;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+
+.beats-content h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.button {
+  background: #ff0000;
+  color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 18px;
+  padding: 10px 30px;
+  font-weight: 400;
+}
+
+.beats-image {
+  max-width: 540px;
+  position: relative;
+  right: 10px;
+}
+
+.beats-image img {
+  width: 100%;
+}
+
+.order {
+  display: flex;
+  padding-top: 90px;
+  background: #fbfcff;
+  padding: 50px 50px;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.order-info h2,
+h4 {
+  text-transform: uppercase;
+}
+
+.order-info h2 {
+  font-size: 58px;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+.order-info h4 {
+  font-weight: normal;
+  text-align: right;
+  padding-right: 126px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.order-info p {
+  padding-right: 47px;
+}
+
+.order-info span {
+  font-weight: 900;
+}
+
+.order-image img {
+  max-width: 470px;
+}
+
+.order-info {
+  flex-basis: 38%;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
+
+.price p {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.trial {
+  color: white;
+  background: #575757;
+  text-align: center;
+  padding: 30px 0px;
+}
+
+.trial .logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo p {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+.trial > span {
+  text-transform: uppercase;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.advert {
+  display: flex;
+}
+
+.advert > img {
+  flex-basis: 50%;
+}
+
+.beats-life {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.beats-life {
+  flex-basis: 50%;
+  background: #dadada;
+}
+
+.text h2 {
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 110px;
+  margin-bottom: 0px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.text span {
+  text-transform: uppercase;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background: #ffffff;
+  padding: 10px 0px;
+}
