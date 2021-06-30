@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+html {
+  font-family: "Gelasio", serif;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background: url("/Requirements-and-Resources/images/map.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px 30px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.nav-list li {
+  padding-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation img {
+  max-width: 50px;
+}
+
+.cta {
+  text-align: center;
+  color: white;
+}
+
+.cta h1 {
+  font-size: 50px;
+  margin-bottom: 5px;
+  padding-top: 80px;
+}
+
+.cta button {
+  background: #146594;
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 175px;
+  cursor: pointer;
+}
+
+main {
+  background: #e1e1e1;
+}
+
+.articles-info {
+  margin: 0px 150px;
+  padding-bottom: 50px;
+}
+
+.articles-info h2 {
+  color: #8c8c8c;
+  padding-top: 50px;
+  padding-left: 130px;
+  margin-top: 0px;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.articles span {
+  padding: 100px;
+  padding-bottom: 130px;
+  color: white;
+  font-size: 25px;
+  text-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.63);
+}
+
+.big span {
+  background: url(./Requirements-and-Resources/images/packing.jpg);
+  background-size: cover;
+}
+
+.small span:nth-child(1) {
+  background: url(./Requirements-and-Resources/images/planning.jpg);
+  background-size: cover;
+}
+
+.small span:nth-child(2) {
+  background: url(./Requirements-and-Resources/images/budget.jpg);
+  background-size: cover;
+}
+
+.big,
+.small {
+  display: flex;
+}
+
+.small {
+  flex-direction: column;
+}
+
+.small span {
+  flex-grow: 1;
+}
+
+footer {
+  background: #8c8c8c;
+}
+
+footer .navigation ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+footer .navigation ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer .navigation ul li {
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: 1px solid white;
+}
+
+footer .navigation ul li:last-child {
+  border: unset;
+}
