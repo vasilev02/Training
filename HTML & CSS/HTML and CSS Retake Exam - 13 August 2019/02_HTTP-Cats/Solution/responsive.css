@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery > * {
+    width: unset;
+  }
+
+  .wrapper.style2 {
+      padding-bottom: 20px;
+  }
+
+  .spotlight > * {
+    width: 100%;
+  }
+
+  .spotlight .inner {
+    text-align: center;
+  }
+}
