@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+ 
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.earth-article{
+    max-width: 650px;
+    margin: 100px auto;
+    border: 1px solid #001216;
+    border-radius: 4px;
+}
+
+.article-headers{
+    padding: 10px;
+    background: #001216;
+}
+
+.article-headers h1{
+    margin: 0px;
+    color: #01F1FA;
+}
+
+.earth-secondery-title{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.info{
+    margin: 20px;
+    display: flex;
+}
+
+.earth-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    max-width: 240px;
+}
+
+.earth-info p{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+img{
+    padding: 7px;
+    max-width: 200px;
+}
+
+.info-text{
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0px 13px;
+}
+
+.facts-title{
+    width: fit-content;
+    background: #001216;
+    color: white;
+    padding: 5px;
+    margin-bottom: 0px;
+}
+
+.facts{
+    padding: 10px;
+    background: #D9EBEB;
+    font-weight: 500;
+}
+
+.facts p{
+    margin: 0px;
+    padding-bottom: 5px;
+}
+
+.facts span{
+    font-weight: bold;
+}
