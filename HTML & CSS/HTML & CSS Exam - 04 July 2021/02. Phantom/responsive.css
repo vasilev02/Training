@@ -1,0 +1,87 @@
+@media screen and (max-width: 900px) {
+  #main .inner {
+    padding: 0 1em;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  #header .logo {
+    margin-bottom: 40px;
+  }
+
+  #header .inner {
+    padding-left: 20px;
+  }
+
+  header p {
+    margin-bottom: 0px;
+  }
+
+  .tiles {
+    justify-content: space-around;
+    margin-top: unset;
+  }
+
+  .tiles article {
+    width: 40%;
+  }
+
+  #footer .inner {
+    padding: 0 1em;
+  }
+
+  #footer > .inner section:nth-child(1) {
+    width: 55%;
+    margin-right: unset;
+  }
+
+  #footer > .inner section:nth-child(2) {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #header .logo {
+    margin-bottom: 40px;
+  }
+
+  #header .inner {
+    padding-left: 20px;
+  }
+
+  .tiles article {
+    width: 470px;
+  }
+
+  #footer > .inner section:nth-child(2) {
+    order: -1;
+    width: 85%;
+    margin-left: unset;
+    margin-bottom: 50px;
+  }
+
+  #footer > .inner section:nth-child(1) {
+    width: 100%;
+  }
+
+  form .fields {
+    flex-direction: column;
+  }
+
+  form > .fields > .field.half {
+    width: unset;
+  }
+
+  ul.actions li {
+    width: 100%;
+  }
+
+  input[type="submit"].primary {
+    width: 100%;
+  }
+}

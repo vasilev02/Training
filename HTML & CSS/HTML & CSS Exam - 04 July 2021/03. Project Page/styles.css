@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+header section {
+  padding: 15px 200px;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company-logo img {
+  width: 100%;
+}
+
+.company-logo {
+  width: 180px;
+}
+
+.company-contacts-credentials {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.number-article,
+.email-article {
+  padding-right: 17px;
+  border-right: 1px solid #e5e5e5;
+}
+
+.number-text,
+.email-text,
+.certificate-text {
+  color: #7d91a2;
+  margin: 8px 0;
+}
+
+.number,
+.email,
+.certificate {
+  margin-top: 0;
+  font-weight: bold;
+}
+
+button {
+  font-weight: bold;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  background: #ffb600;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.navigation {
+  background: #23282d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1119px;
+  padding: 0 200px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.item a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+}
+
+.fa-search {
+  color: #999999;
+}
+
+#active {
+  color: #ffb600;
+}
+
+.header-bottom {
+  color: white;
+  background: url(./images/banner1.jpg);
+  text-align: center;
+  font-weight: bold;
+  padding: 80px 0;
+}
+
+.header-bottom h1 {
+  font-weight: bold;
+  font-size: 65px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.header-bottom p {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.capital-building {
+  display: flex;
+  margin: 80px 160px 80px 200px;
+}
+
+.capital-building-title {
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.capital-building-content {
+  padding-left: 35px;
+}
+
+.capital-building-description,
+.capital-building-text {
+  color: #555555;
+}
+
+footer section {
+  padding-top: 80px;
+  padding-right: 90px;
+  padding-bottom: 80px;
+  padding-left: 200px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: white;
+}
+
+.footer-info {
+  padding-right: 65px;
+  width: 30%;
+}
+
+.footer-title {
+  padding-left: 15px;
+  margin-bottom: 30px;
+  border-left: 3px solid #ffb600;
+}
+
+.footer-logo {
+  width: 180px;
+}
+
+.footer-info p,
+.footer-info a {
+  color: #93908b;
+}
+
+.footer-menu {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-menu-item {
+  margin-bottom: 20px;
+}
+
+.footer-menu-item a {
+  text-decoration: none;
+}
+
+.social-medias {
+  display: flex;
+}
+
+.social-medias i {
+  margin-right: 30px;
+}
+
+.hours-distribution {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+.working-hours p {
+  margin: 0;
+}
+
+.fa-chevron-right {
+  padding-right: 10px;
+}
+
+.services {
+  margin-right: 20px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffb600;
+  padding: 20px 200px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.footer-nav-item a {
+  color: black;
+  text-decoration: none;
+  padding: 0 20px;
+}
